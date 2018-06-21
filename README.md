@@ -1,9 +1,11 @@
 # CycleView
 无线轮播实现
 
-import UIKit
-//遵守代理
-class ViewController: UIViewController,CycleViewDelegate {
+
+
+    import UIKit
+    //遵守代理
+    class ViewController: UIViewController,CycleViewDelegate {
     //实现代理方法
     func CycleViewItemClick(_ collectionView: UICollectionView, selectedItem item: Int) {
         print(item)
@@ -32,6 +34,7 @@ class ViewController: UIViewController,CycleViewDelegate {
         //        self.view.addSubview(cycleView)
     }
 }
+
 
 
 效果：
